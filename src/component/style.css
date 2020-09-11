@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css?family=Lobster");
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+
+.center .slick-center{
+  transform: scale(1.3);
+}
+
+.tab-header-style{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70px; 
+  height: 70px; 
+  border-radius: 50%; 
+  color: white;
+}
+
+
+.buttons {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 2rem;
+  align-items: center;
+}
+
+body {
+  background-color: #89fad0;
+  font-family: Roboto;
+}
+
+
+.icon-size{
+font-size: 30px !important;
+}
+
+
+
+/* ======================Media Query=========== */
+
+
+
+@media only screen  and (max-width : 575px) {
+  .tab-header-style{
+    width: 55px; 
+    height: 55px; 
+  }
+
+  .icon-size{
+    font-size: 25px !important;
+    }
+
+}
+
+
+
+
+
+/* =============Cup Size============= */
+.cup{
+  display: inline;
+  color: rgb(148, 174, 197);
+}
+.cupSize1 { 
+  width: 2rem;
+  height: 2rem;
+  margin-top: 4rem;
+}
+.cupSize2 { 
+  width: 3rem;
+  margin-top: 2rem;
+}
+.cupSize3 { 
+  width: 4rem;
+}
+.cupSizeImage{
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-evenly;
+}
+
+
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  /* Styles */
+  .cupSizeImage{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-evenly;
+    margin-top: 30%;
+  }
+
+  }
+  
+  /* Smartphones (landscape) ----------- */
+  
+  
+  /* Smartphones (portrait) ----------- */
+  @media only screen and (max-width : 320px) {
+  /* Styles */
+  .cupSizeImage{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-evenly;
+    margin-top: 30%;
+  }
+
+  }
+  
+  /* iPads (portrait and landscape) ----------- */
+  @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+  /* Styles */
+  .cupSizeImage{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-evenly;
+   
+  }
+
+  }
+  
+  /* iPads (landscape) ----------- */
+  @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+  /* Styles */
+  .cupSizeImage{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-evenly;
+   
+  }
+  }
+  
+  /* iPads (portrait) ----------- */
+  @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+  /* Styles */
+  .cupSizeImage{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-evenly;
+   
+  }
+  }
+  /**********
+  iPad 3
+  **********/
+  @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2) {
+  /* Styles */
+  .cupSizeImage{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-evenly;
+   
+  }
+  }
+  
+  @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
+  /* Styles */
+  .cupSizeImage{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-evenly;
+   
+  }
+  }
